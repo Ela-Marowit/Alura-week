@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="./cambios/reset.css">
+        <link rel="stylesheet" href="./cambios/todo.css">
+        <link rel="stylesheet" href="./cambios/nav.css">
+        <link rel="stylesheet" href="./cambios/banner.css">
+        <link rel="stylesheet" href="./login.html">
+        <link rel="stylesheet" href="./cambios/productos.css">
+        <link rel="stylesheet" href="./cambios/footer.css">
+        <link rel="stylesheet" href="./cambios/rodapie.css">
+        <link rel="stylesheet" href="./verProducto.html">
+        <title>SugarCANDY</title>
+        
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="cabecera">
+                <div class="titulo">
+                    <img class="logo" src="./img/candy.png">
+                    <h2 class="nombreEmpresa">SugarCANDY</h2>
+                </div>
+                <div class="buscar">
+                    <input class="busqueda" type="text" nombre="busqueda" placeholder="¿Qué deseas buscar?" id="searchInput">
+                    <img class="lupa" src="./img/lupa.png">
+                </div>
+                <div class="boton-login">
+                    <a href="./login.html"><button class="login" type="submit">Login</button></a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="banner">
+                <img class="banner__candy" src="./img/banner.jpg">
+                <div class="banner__promociones">
+                    <h2 class="banner__titulo">Agosto Promocional</h2>
+                    <span class="banner__texto">Productos selecionados con un 33% de descuento.</span>
+                    <button class="banner__btn" type="submit">Ver Productos</button>
+                </div>
+            </section>
+            <section class="tipo">
+                <!-- <div class="tipo__descripcion">
+                    <div class="tipo__titulo">
+                        <h2 class="tipo__nombre">Regaliz</h2>
+                        <button class="tipo__boton" type="submit">Ver Todo &#8594; </button>
+                    </div>
+                    <div class="productos" data-product>
+                        <div class="tipo__producto"> 
+                            <img class="tipo__foto" src="./img/productos/regaliz/descarga.jfif" />
+                            <p class="tipo__nombreProducto">Fini Sabor Tutti Frutti 80g</p>
+                            <p class="tipo__precio">$5.000</p>
+                            <button class="tipo__verProducto">Ver Producto</button>
+                        </div>
+                        <div class="tipo__producto">
+                            <img class="tipo__foto" src="./img/productos/regaliz/descarga.jfif" />
+                            <p class="tipo__nombreProducto">Fini Sabor Tutti Frutti 80g</p>
+                            <p class="tipo__precio">$5.000</p>
+                            <button class="tipo__verProducto">Ver Producto</button>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="tipo__descripcion">
+                    <div class="tipo__titulo"> -->
+                        <!-- <h2 class="tipo__nombre">Gomitas</h2>
+                        <button class="tipo__boton" type="submit">Ver Todo &#8594; </button>
+                    </div>
+                    <div class="productos">
+                        <div class="tipo__producto">
+                            <img class="tipo__foto" src="./img/productos/regaliz/fresa.jfif" />
+                            <p class="tipo__nombreProducto">Fini Sabor Tutti Frutti 80g</p>
+                            <p class="tipo__precio">$5.000</p>
+                            <button class="tipo__verProducto">Ver Producto</button>
+                        </div> -->
+                    <!-- </div>
+                </div> -->
+                <!-- <div class="tipo__descripcion">
+                    <div class="tipo__titulo">
+                        <h2 class="tipo__nombre">Diversos</h2>
+                        <button class="tipo__boton" type="submit">Ver Todo &#8594; </button>
+                    </div>
+                    <div class="productos">
+                        <div class="tipo__producto">
+                            <img class="tipo__foto" src="./img/productos/regaliz/descarga.jfif" />
+                            <p class="tipo__nombreProducto">Fini Sabor Tutti Frutti 80g</p>
+                            <p class="tipo__precio">$5.000</p>
+                            <button class="tipo__verProducto">Ver Producto</button>
+                        </div>
+                    </div>  
+                </div> -->
+            </section>
+            
+        </main>
+        <footer class="footer">
+            <section class="footer__nosotros">
+                <div class="footer__contenedor">
+                    <!-- <div class="cabecera"> -->
+                    <div class="titulo">
+                        <img class="logo" src="./img/candy.png">
+                        <h2 class="nombreEmpresa">SugarCANDY</h2>
+                    </div>
+                    <div class="footer__informaciones">
+                        <a href="#" class="footer__inf">Quienes somos</a>
+                        <a href="#" class="footer__inf">Política de privacidad</a>
+                        <a href="#" class="footer__inf">Programa de fidelidad</a>
+                        <a href="#" class="footer__inf">Nuestras Tiendas</a>
+                        <a href="#" class="footer__inf">Quiero ser franquiciado</a>
+                        <a href="#" class="footer__inf">Anúncie aquí</a>
+                    </div>
+                    <div class="footer__contacto">
+                        <h3 class="footer__titulo">Hable con nosotros</h3>
+                        <label class="footer__nombre">Nombre</label>
+                        <input class="footer__input" placeholder="Nombre">
+                        <textarea class="footer__mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        <button class="footer__button">Enviar mensaje</button>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <div class="rodapie">
+            <p class="rodapie__desarrollo">Desarrollado por Daniela Espinosa</p>
+            <p class="rodapie__desarrollo">2023</p>
+        </div>
+        <!-- <script type="module" src="./controllers/crearProducto.controller.js"></script> -->
+        <script type="module" src="./controllers/productos.controller.js"></script>
+        <script type="module" src="./controllers/filtrarProductos.js"></script>
+    </body>
+
+</html>

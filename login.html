@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="./cambios/reset.css">
+        <link rel="stylesheet" href="./cambios/todo.css">
+        <link rel="StyleSheet" type="text/css" href="./cambios/nav.css"> 
+        <link rel="stylesheet" href="./cambios/login/login.css">
+        <link rel="stylesheet" href="./cambios/footer.css">
+        <link rel="stylesheet" href="./cambios/rodapie.css">
+        <title>SugarCANDY-login</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="cabecera">
+                <div class="titulo">
+                    <img class="logo" src="./img/candy.png">
+                    <h2 class="nombreEmpresa">SugarCANDY</h2>
+                </div>
+                <!-- <div class="buscar">
+                    <input class="busqueda" type="text" nombre="busqueda" placeholder="¿Qué deseas buscar?">
+                    <img class="lupa" src="./img/lupa.png">
+                </div> -->
+            </div>
+        </header>
+        <main class="login__todo">
+            <section class="login_section">
+                <form class="login__conteiner" data-form >
+                    <h2 class="login__titulo">Iniciar Sesión</h2>
+                    <input class="login__email" type="email" placeholder="Escriba su correo electrónico..." data-email>
+                    <input class="login__email" type="password" placeholder="Escriba su contraseña..." data-password>
+                    <div id="error"></div>
+                    <a href="./productos.html"><button class="login__btn">Entrar</button></a>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="footer__nosotros">
+                <div class="footer__contenedor">
+                    <!-- <div class="cabecera"> -->
+                    <div class="titulo">
+                        <img class="logo" src="./img/candy.png">
+                        <h2 class="nombreEmpresa">SugarCANDY</h2>
+                    </div>
+                    <div class="footer__informaciones">
+                        <a href="#" class="footer__inf">Quienes somos</a>
+                        <a href="#" class="footer__inf">Política de privacidad</a>
+                        <a href="#" class="footer__inf">Programa de fidelidad</a>
+                        <a href="#" class="footer__inf">Nuestras Tiendas</a>
+                        <a href="#" class="footer__inf">Quiero ser franquiciado</a>
+                        <a href="#" class="footer__inf">Anúncie aquí</a>
+                    </div>
+                    <div class="footer__contacto">
+                        <h3 class="footer__titulo">Hable con nosotros</h3>
+                        <label class="footer__nombre">Nombre</label>
+                        <input class="footer__input" placeholder="Nombre">
+                        <textarea class="footer__mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        <button class="footer__button">Enviar mensaje</button>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <div class="rodapie">
+            <p class="rodapie__desarrollo">Desarrollado por Daniela Espinosa</p>
+            <p class="rodapie__desarrollo">2023</p>
+        </div>
+        <script type="module" src="./controllers/login.controller.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,120 @@
+.login__todo{
+    display: flex;
+    width: 100vw;
+    /* height: 70vh;   */
+    height: calc(100vh - 96px );
+}
+.login_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 96px );
+}
+.login__conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5vh 1.5vw;
+    background-color:rgba(169, 169, 169,0.6);
+    border-radius: 10px;
+    margin: 2vh;
+}
+.login__titulo{
+    box-sizing: border-box;
+    padding: 2vh 2vw;
+    font-weight: 600;
+    color: rgb(48, 43, 53); 
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    border-bottom: 2px solid rgb(48, 43, 53); ;
+}
+.login__email{
+    box-sizing: border-box;
+    padding: 2vh 2vw;
+    width: 30vw;
+    margin-bottom: 2vh;
+    border-radius: 15px;
+    outline-color: blueviolet;
+}
+#error{
+    margin-bottom: 2.5vh;
+    color:rgb(138, 3, 3);
+    padding: 3px;
+    
+}
+.login__btn{
+    background-color: rgb(48, 43, 53); 
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    
+}
+.login__btn:hover{
+    background-color:rgb(33, 18, 46);
+    box-shadow: 2px 0px 5px 5px rgba(0,0,0,0.3);
+    transform:translate(3px, 1px);
+}
+    
+@media only screen and (min-width:0px) and (max-width:414px){
+    .login__todo{
+        display: flex;
+        /* height: 100%; */
+        height: calc(100% - 96px );
+    } 
+    .login_section{
+        width: 100%;
+        height: calc(100vh - 96px );
+    }    
+    .login__conteiner{
+        padding-top:3vh;
+        padding-bottom: 3vh;
+    }    
+    .login__titulo{
+        font-size: 2rem;
+        border-bottom: 2px solid rgb(48, 43, 53);
+        padding: 0;
+        margin-bottom: 5vh;
+    }    
+    .login__email{
+        padding: 2vh;
+        width: 80vw;
+    } 
+    .login__btn{
+        padding: 2vh 10vw;
+    }       
+}
+
+@media only screen and (min-width:415px)and (max-width:820px){
+    .login__todo{
+        display: flex;
+        height: calc(100% - 96px );
+        box-sizing: border-box;
+    } 
+    .login_section{
+        width: 100%;
+        height: calc(100vh - 96px );
+        box-sizing: border-box;
+    } 
+    .login__conteiner{
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }   
+    .login__titulo{
+        font-size: 2rem;
+        border-bottom: 2px solid rgb(48, 43, 53); 
+        padding: 0;
+        margin-bottom: 5vh;
+    }    
+    .login__email{
+        padding: 2vh;
+        width: 50vw;
+    }
+    .login__btn{
+        padding: 2vh 10vw;
+    }           
+}    

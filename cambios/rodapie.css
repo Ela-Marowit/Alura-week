@@ -1,0 +1,15 @@
+.rodapie{
+    background-color: rgb(196, 170, 221);
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    flex-direction: column;
+}
+.rodapie__desarrollo{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(48, 43, 53); 
+}

@@ -1,0 +1,108 @@
+{
+  "producto": [
+    {
+      "categoria": "Regaliz",
+      "url": "./img/productos/regaliz/fresa.jfif",
+      "nombre": "Fini Sabor Fresa 80g",
+      "precio": "5000",
+      "descripcion": "Fini Sabor Tutti Frutti 80g",
+      "id": 1
+    },
+    {
+      "categoria": "Regaliz",
+      "url": "https://jumbo.vtexassets.com/arquivos/ids/634204/Tubos-twistter-acido-80-g.jpg?v=638132005836770000",
+      "nombre": "Fini ",
+      "precio": "5000",
+      "descripcion": "Fini Sabor Tutti Frutti 80g",
+      "id": 2
+    },
+    {
+      "categoria": "Regaliz",
+      "url": "./img/productos/regaliz/descarga.jfif",
+      "nombre": "Fini Sabor Tutti Frutti 80g",
+      "precio": "5000",
+      "descripcion": "Fini Sabor Tutti Frutti 80g",
+      "id": 3
+    },
+    {
+      "categoria": "Gomitas",
+      "url": "./img/productos/regaliz/descarga.jfif",
+      "nombre": "Fini Sabor Tutti Frutti 80g",
+      "precio": "5000",
+      "descripcion": "Fini Sabor Tutti Frutti 80g",
+      "id": 5
+    },
+    {
+      "categoria": "Gomitas",
+      "url": "./img/productos/regaliz/descarga.jfif",
+      "nombre": "Fini Sabor Tutti Frutti 80g",
+      "precio": "5000",
+      "descripcion": "Fini Sabor Tutti Frutti 80g",
+      "id": 6
+    },
+    {
+      "categoria": "Regaliz",
+      "url": "./img/productos/regaliz/descarga.jfif",
+      "nombre": "Fini Sabor Tutti Frutti 80g",
+      "precio": "5000",
+      "descripcion": "Fini Sabor Tutti Frutti 80g",
+      "id": 7
+    },
+    {
+      "categoria": "Regaliz",
+      "url": "https://images.lider.cl/wmtcl?source=url[file:/productos/901778a.jpg]&scale=size[449x449]&sink",
+      "nombre": "fresa",
+      "precio": "2000",
+      "descripcion": "fresa",
+      "id": 14
+    },
+    {
+      "categoria": "Gomitas",
+      "url": "https://jumbo.vtexassets.com/arquivos/ids/634204/Tubos-twistter-acido-80-g.jpg?v=638132005836770000",
+      "nombre": "arcoiris",
+      "precio": "5000",
+      "descripcion": "arcoiris",
+      "id": 15
+    },
+    {
+      "categoria": "Regaliz",
+      "url": "https://jumbo.vtexassets.com/arquivos/ids/634204/Tubos-twistter-acido-80-g.jpg?v=638132005836770000",
+      "nombre": "colores",
+      "precio": "5000",
+      "descripcion": "arcoiris",
+      "id": 16
+    },
+    {
+      "categoria": "Gomitas",
+      "url": "https://images.lider.cl/wmtcl?source=url[file:/productos/901778a.jpg]&scale=size[449x449]&sink",
+      "nombre": "colores",
+      "precio": "10000",
+      "descripcion": "hola",
+      "id": 17
+    },
+    {
+      "categoria": "Gomitas",
+      "url": "https://images.lider.cl/wmtcl?source=url[file:/productos/901778a.jpg]&scale=size[449x449]&sink",
+      "nombre": "rojo",
+      "precio": "4000",
+      "descripcion": "gomitas",
+      "id": 18
+    },
+    {
+      "categoria": "Regaliz",
+      "url": "https://jumbo.vtexassets.com/arquivos/ids/634204/Tubos-twistter-acido-80-g.jpg?v=638132005836770000",
+      "nombre": "colores",
+      "precio": "2000",
+      "descripcion": "colores",
+      "id": 19
+    },
+    {
+      "categoria": "Diversos",
+      "url": "https://images.lider.cl/wmtcl?source=url[file:/productos/901778a.jpg]&scale=size[449x449]&sink",
+      "nombre": "rojo",
+      "precio": "2000",
+      "descripcion": "rojo",
+      "id": 20
+    }
+  ]
+}

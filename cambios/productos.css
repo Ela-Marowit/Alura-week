@@ -1,0 +1,109 @@
+.tipo{
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(196, 170, 221); */
+    background-color: rgb(245, 236, 244);
+    flex-wrap: wrap;
+}
+.tipo__descripcion{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2vh; 
+}
+.tipo__titulo{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.tipo__nombre{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: normal;
+    color:#464646;
+    padding: 0.5vh;
+    border-bottom:2px solid #464646;
+}
+.tipo__boton{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background-color: rgb(245, 236, 244); 
+    color: gray; 
+    cursor:pointer;
+    text-shadow: .5px .5px .5px rgb(6, 4, 8);
+}
+.tipo__boton:hover{
+    border-bottom: 1px solid rgb(86, 70, 102);
+    color:rgb(86, 70, 102);
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+}
+.tipo__producto{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap:8px;
+    margin:2vh 2vw;
+}
+.tipo__foto{
+    border-radius: 16px;
+    width: 156px;
+    height: 174px;
+    border:2px solid gray ;
+}
+.tipo__nombreProducto{
+    width: 156px;
+}
+
+.tipo__precio{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.tipo__verProducto{
+    padding: 1.5vh;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(196, 170, 221);
+    border:none;
+    /* color:rgb(244, 242, 245); */
+    /* text-shadow: 1px 1px 1px rgb(99, 56, 145); */
+    cursor: pointer; 
+    color:rgb(53, 53, 53);
+    font-weight: bold;
+}
+.tipo__verProducto:hover{
+    /* box-shadow: 2px 0px 5px 5px rgba(0,0,0,0.3); */
+    box-shadow: 2px 1px 2px 2px rgba(0,0,0,0.5);
+    transform:translate(3px, 1px);
+    /* color:rgb(86, 70, 102); */
+    text-shadow: none;
+}
+
+@media only screen and (min-width:0px) and (max-width:414px){
+    .tipo__titulo{
+        width: 90%;   
+    } 
+    .tipo__foto{
+        width: 156px;
+        height: 174px; 
+    }    
+}
+@media only screen and (min-width:415px)and (max-width:820px){
+    .tipo__titulo{
+        width: 90%;   
+    } 
+    .tipo__foto{
+        width: 156px;
+        height: 174px; 
+    }    
+}        

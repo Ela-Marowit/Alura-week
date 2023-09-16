@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="./cambios/reset.css">
+    <link rel="stylesheet" href="./cambios/todo.css">
+    <link rel="StyleSheet" type="text/css" href="./cambios/nav.css">
+    <link rel="stylesheet" href="./cambios/productos/modificarProducto.css">
+    <link rel="stylesheet" href="./cambios/productos.css">
+    <link rel="stylesheet" href="./cambios/footer.css">
+    <link rel="stylesheet" href="./cambios/rodapie.css">
+    <link rel="stylesheet" href="./editarProducto.html">
+    <link rel="stylesheet" href="./cambios/verProducto/verProducto.css">
+    <title>SugarCANDY-productos</title>
+</head>
+
+<body>
+    <header class="header"> 
+        <div class="cabecera">
+            <div class="titulo">
+                <img class="logo" src="./img/candy.png">
+                <h2 class="nombreEmpresa">SugarCANDY</h2>
+            </div>
+            <!-- <div class="buscar">
+                <input class="busqueda" type="text" nombre="busqueda" placeholder="¿Qué deseas buscar?">
+                <img class="lupa" src="./img/lupa.png">
+            </div> -->
+        </div>
+    </header>
+    <main class="productos__main">
+        <section class="producto-tipo">
+            <div class="producto-todo">
+                <div class="producto-cont-img">
+                    <img class="producto-imagen" src="" alt="Imagen del producto"> 
+                </div>
+                <div class="producto-descripcionn">
+                    <h2 class="producto-titulo-nombre">Nombre del producto:</h2>
+                    <h2 class="producto-nombre"></h2>
+                    <h2 class="producto-titulo-precio">Precio:</h2>
+                    <p class="producto-precio"></p>
+                    <h3 class="producto-descripcion-descr">Descripción del producto:</h3>
+                    <p class="producto-descripcion"></p>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__nosotros">
+            <div class="footer__contenedor">
+                <!-- <div class="cabecera"> -->
+                <div class="titulo">
+                    <img class="logo" src="./img/candy.png">
+                    <h2 class="nombreEmpresa">SugarCANDY</h2>
+                </div>
+                <div class="footer__informaciones">
+                    <a href="#" class="footer__inf">Quienes somos</a>
+                    <a href="#" class="footer__inf">Política de privacidad</a>
+                    <a href="#" class="footer__inf">Programa de fidelidad</a>
+                    <a href="#" class="footer__inf">Nuestras Tiendas</a>
+                    <a href="#" class="footer__inf">Quiero ser franquiciado</a>
+                    <a href="#" class="footer__inf">Anúncie aquí</a>
+                </div>
+                <div class="footer__contacto">
+                    <h3 class="footer__titulo">Hable con nosotros</h3>
+                    <label class="footer__nombre">Nombre</label>
+                    <input class="footer__input" placeholder="Nombre">
+                    <textarea class="footer__mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    <button class="footer__button">Enviar mensaje</button>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <div class="rodapie">
+        <p class="rodapie__desarrollo">Desarrollado por Daniela Espinosa</p>
+        <p class="rodapie__desarrollo">2023</p>
+    </div>
+    <!-- <script type="module" src="./controllers/crearProducto.controller.js"></script> -->
+    <!-- <script type="module" src="./controllers/productos.controller.js"></script>  -->
+    <!-- <script type="module" src="./controllers/listaProducto.controller.js"></script> -->
+    <!-- <script type="module" src="./services/productos-service.js"></script> -->
+    <script type="module" src="./controllers/verProducto.controller.js"></script>
+</body>
+
+</html>
+
+<!-- <main class="productos__main">
+    <section class="tipo">
+        <div class="tipo__descripcion">
+            <div class="tipo__titulo">
+                <div class="producto-detalle">
+                    <img class="producto-imagen" src="" alt="Imagen del producto">
+                    <div class="contenedors">
+                        <h2 class="producto-nombre"></h2>
+                        <p class="producto-precio"></p>
+                        <p class="producto-descripcion"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main> -->

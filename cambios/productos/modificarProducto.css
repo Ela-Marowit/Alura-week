@@ -1,0 +1,87 @@
+.productos__main{
+    width: 100%;
+    display: flex;
+    background-color: rgb(245, 236, 244);
+}
+.productos__section{
+    width: 100%;
+}
+.productos__contenedor{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2vh; 
+}
+
+.productos__titulo{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.productos__nombre{
+    font-size: 2rem;
+    color:rgb(175, 126, 228);
+    border-bottom: 2px solid rgb(164, 154, 175);;
+}
+
+.productos__boton{
+    background-color: rgb(126, 120, 131); 
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    
+}
+.productos__boton:hover{
+    background-color:rgb(201, 168, 231);
+    box-shadow: 2px 0px 5px 5px rgba(0,0,0,0.3);
+    transform:translate(3px, 1px);
+}
+.container{
+    position: relative;
+}
+.container .buttonEditar{
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+.container .buttonEliminar{
+    position: absolute;
+    top: 8px;
+    right: 45px;
+}
+.buttonEliminar{
+    background-color: transparent;
+    border-color: transparent;
+}
+.buttonEditar{
+    background-color: transparent;
+    border-color: transparent;
+}
+.tipo__eliminar{
+    /* float: right; */
+    width: 24px;
+    height: 24px;
+}
+.tipo__editar{
+    /* float: right; */
+    width: 24px;
+    height: 24px;
+}
+
+@media only screen and (min-width:0px) and (max-width:414px){
+    .productos__titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .productos__nombre{
+        margin-bottom: 1.8vh;
+    }   
+}    

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="./cambios/reset.css">
+    <link rel="stylesheet" href="./cambios/todo.css">
+    <link rel="StyleSheet" type="text/css" href="./cambios/nav.css">
+    <link rel="StyleSheet" href="./cambios/agregarproductos/agregarProducto.css">
+    <link rel="stylesheet" href="./cambios/footer.css">
+    <link rel="stylesheet" href="./cambios/rodapie.css">
+    <title>SugarCANDY-agregar</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="cabecera">
+            <div class="titulo">
+                <img class="logo" src="./img/candy.png">
+                <h2 class="nombreEmpresa">SugarCANDY</h2>
+            </div>
+            <!-- <div class="buscar">
+                <input class="busqueda" type="text" nombre="busqueda" placeholder="¿Qué deseas buscar?">
+                <img class="lupa" src="./img/lupa.png">
+            </div> -->
+            <div class="boton-login">
+                <a href="#"><button class="login" type="submit">Menú Administrador</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="add">
+        <section class="add__section">
+            <div class="add__titulo">
+                <h2 class="add__h2">Agregar nuevo producto</h2>
+            </div>
+
+            <form class="add__form" data-form>
+                <div class="add__contenedor">
+                    <label class="add__titulos">URL de imagen</label>
+                    <input type="text" class="add__inf" required data-url/>
+                </div>
+                <div class="add__contenedor">
+                    <label class="add__titulos">Categoria</label>
+                    <select class="add__inf" required data-categoria>
+                        <option>--</option>
+                        <option>Regaliz</option>
+                        <option>Gomitas</option>
+                        <option>Diversos</option>
+                    </select>
+                </div>
+                <!-- <div class="add__contenedor">
+                    <label class="add__titulos">Categoria</label>
+                    <input type="text" class="add__inf" required data-categoria/>
+                </div> -->
+                <div class="add__contenedor">
+                    <label class="add__titulos">Nombre del producto</label>
+                    <input type="text" class="add__inf" required data-nombre/>
+                </div>
+                <div class="add__contenedor">
+                    <label class="add__titulos">Precio del producto</label>
+                    <input type="text" class="add__inf" required data-precio/>
+                </div>
+                <div class="add__contenedor">
+                    <label class="add__titulos">Descripcion del producto</label>
+                    <input type="text" class="add__inf" required data-descripcion/>
+                </div>
+                <div class="productos__titulo">
+                    <button class="productos__boton" type="submit">Agregar producto</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__nosotros">
+            <div class="footer__contenedor">
+                <!-- <div class="cabecera"> -->
+                <div class="titulo">
+                    <img class="logo" src="./img/candy.png">
+                    <h2 class="nombreEmpresa">SugarCANDY</h2>
+                </div>
+                <div class="footer__informaciones">
+                    <a href="#" class="footer__inf">Quienes somos</a>
+                    <a href="#" class="footer__inf">Política de privacidad</a>
+                    <a href="#" class="footer__inf">Programa de fidelidad</a>
+                    <a href="#" class="footer__inf">Nuestras Tiendas</a>
+                    <a href="#" class="footer__inf">Quiero ser franquiciado</a>
+                    <a href="#" class="footer__inf">Anúncie aquí</a>
+                </div>
+                <div class="footer__contacto">
+                    <h3 class="footer__titulo">Hable con nosotros</h3>
+                    <label class="footer__nombre">Nombre</label>
+                    <input class="footer__input" placeholder="Nombre">
+                    <textarea class="footer__mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    <button class="footer__button">Enviar mensaje</button>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <div class="rodapie">
+        <p class="rodapie__desarrollo">Desarrollado por Daniela Espinosa</p>
+        <p class="rodapie__desarrollo">2023</p>
+    </div>
+    <script type="module" src="./controllers/crearProducto.controller.js"></script>
+    <!-- <script type="module" src="./controllers/productos.controller.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</body>
+
+</html>
